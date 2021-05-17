@@ -24,6 +24,16 @@ h2{
    text-align: center;
    border-radius: 5%;
 }
+.box:nth-of-type(even){
+    animation: lightSpeedInRight;
+    animation-duration: 1.2s;
+}
+.box:nth-of-type(odd){
+    animation: lightSpeedInLeft;
+    animation-duration: 1.2s;
+}
+
+
 h3{
     text-align: center;
     margin: 50% auto;
